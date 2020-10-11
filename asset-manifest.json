@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.c33d10e4.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.605905ae.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.605905ae.chunk.js.map",
-    "runtime-main.js": "/myPortfolio/static/js/runtime-main.d351083c.js",
-    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.d351083c.js.map",
-    "static/js/2.32dd99c0.chunk.js": "/myPortfolio/static/js/2.32dd99c0.chunk.js",
-    "static/js/2.32dd99c0.chunk.js.map": "/myPortfolio/static/js/2.32dd99c0.chunk.js.map",
-    "index.html": "/myPortfolio/index.html",
-    "precache-manifest.5584d01380fb0b4f06a1649519fb48f2.js": "/myPortfolio/precache-manifest.5584d01380fb0b4f06a1649519fb48f2.js",
-    "service-worker.js": "/myPortfolio/service-worker.js",
-    "static/css/main.c33d10e4.chunk.css.map": "/myPortfolio/static/css/main.c33d10e4.chunk.css.map",
-    "static/js/2.32dd99c0.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.32dd99c0.chunk.js.LICENSE.txt",
-    "static/media/Ani_Mee.png": "/myPortfolio/static/media/Ani_Mee.72fe4e12.png",
-    "static/media/App.css": "/myPortfolio/static/media/coffee-apple.2dd213aa.jpg"
+    "main.css": "/static/css/main.b3381cfa.chunk.css",
+    "main.js": "/static/js/main.3220b646.chunk.js",
+    "main.js.map": "/static/js/main.3220b646.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.32dd99c0.chunk.js": "/static/js/2.32dd99c0.chunk.js",
+    "static/js/2.32dd99c0.chunk.js.map": "/static/js/2.32dd99c0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ba40b97660d21b0c5dee5d4c45c787e2.js": "/precache-manifest.ba40b97660d21b0c5dee5d4c45c787e2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b3381cfa.chunk.css.map": "/static/css/main.b3381cfa.chunk.css.map",
+    "static/js/2.32dd99c0.chunk.js.LICENSE.txt": "/static/js/2.32dd99c0.chunk.js.LICENSE.txt",
+    "static/media/Ani_Mee.png": "/static/media/Ani_Mee.72fe4e12.png",
+    "static/media/App.css": "/static/media/coffee-apple.2dd213aa.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d351083c.js",
+    "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.32dd99c0.chunk.js",
-    "static/css/main.c33d10e4.chunk.css",
-    "static/js/main.605905ae.chunk.js"
+    "static/css/main.b3381cfa.chunk.css",
+    "static/js/main.3220b646.chunk.js"
   ]
 }
