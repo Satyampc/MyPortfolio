@@ -121,11 +121,9 @@ const Resume = () => {
 
             <Typography className={classes.subHeading} style={{color: "white", fontSize: "13px"}} align="center">
                 <Typed 
-                strings={["Web Development, Web Designing, Testing and Documentation, HTML/HTML5 and CSS/CSS3, JavaScript, jQuery, React JS, <br/> Angular 2/4/6/7, TypeScript, Material UI, Canvas StoryBook and More"]} 
+                strings={["Web Development, Web Designing, Testing and Documentation, HTML/HTML5 and CSS/CSS3, <br/> JavaScript, jQuery, React JS, Angular 2/4/6/7, TypeScript, Material UI, Canvas StoryBook and much more..."]} 
                 typeSpeed={100}
-                // backSpeed={30}
-                // loop
-                    />
+                />
                 </Typography>
 
       </Typography>
