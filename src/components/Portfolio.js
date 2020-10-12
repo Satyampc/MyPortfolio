@@ -3,10 +3,10 @@ import Navbar from './Navbar';
 import { Box, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography} from '@material-ui/core';
 import {makeStyles} from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-import project1 from '../images/html-css-javascript-lg.jpg';
-import project2 from '../images/javascript-fullstack.jpg';
-import project3 from '../images/react-redux.jpg';
-import project4 from '../images/mern-stack.jpg';
+import project1 from '../images/WebPerforOptimize.jpg';
+import project2 from '../images/ResponsiveWebApp.jpg';
+import project3 from '../images/ScalibiltyBestPract.jpg';
+import project4 from '../images/TeamPlayer.png';
 
 const useStyles = makeStyles({
     mainContainer: {
@@ -17,7 +17,7 @@ const useStyles = makeStyles({
         maxWidth: 345,
         margin:'5rem auto'
     }
-}) 
+});
 
 
 const Portfolio = () => {
@@ -45,17 +45,22 @@ const Portfolio = () => {
                         <CardActionArea>
                             <CardMedia 
                                 component='img'
-                                alt='Prokect 1'
+                                alt='Project 1'
                                 height='140'
                                 image={project1}/>
                                 <CardContent>
                                     <Typography gutterBottom variant='h5'>
-                                        Priject 1
+                                    Performance
                                     </Typography>
                                     <Typography  variant='body2' color='textSecondary' component='p'>
-                                        Proident sit enim commodo et. Cupidatat fugiat anim commodo est. 
-                                        Reprehenderit mollit irure consequat Lorem. Officia duis Lorem occaecat 
-                                        ad labore occaecat fugiat laborum.
+                                        Use a Content Delivery Network (CDN) ...
+                                        Move your website to a better host. ...
+                                        Optimize the size of images on your website. ...
+                                        Reduce the number of plugins. ...
+                                        Minimize the number of JavaScript and CSS files. ...
+                                        Use website caching. ...
+                                        Implement Gzip Compression. ...
+                                        Database optimization in CMS.
                                     </Typography>
                                 </CardContent>
                              </CardActionArea>
@@ -64,7 +69,7 @@ const Portfolio = () => {
                                         Share
                                     </Button>
                                     <Button size='small' color='primary'>
-                                        Live Demo
+                                        Like
                                     </Button>
                                 </CardActions>
                             </Card>
@@ -80,12 +85,13 @@ const Portfolio = () => {
                                 image={project2}/>
                                 <CardContent>
                                     <Typography gutterBottom variant='h5'>
-                                        Priject 2
+                                    Accessibility & Best Practices
                                     </Typography>
                                     <Typography  variant='body2' color='textSecondary' component='p'>
-                                        Proident sit enim commodo et. Cupidatat fugiat anim commodo est. 
-                                        Reprehenderit mollit irure consequat Lorem. Officia duis Lorem occaecat 
-                                        ad labore occaecat fugiat laborum.
+                                        1. Create perceivable content <br/>
+                                        2. Offer several ways to navigate <br/>
+                                        3. Make sure your app or site plays well with others.<br/>
+                                        4. Test, test, test
                                     </Typography>
                                 </CardContent>
                                  </CardActionArea>
@@ -94,7 +100,7 @@ const Portfolio = () => {
                                         Share
                                     </Button>
                                     <Button size='small' color='primary'>
-                                        Live Demo
+                                        Like
                                     </Button>
                                 </CardActions>
                             </Card>
@@ -110,12 +116,13 @@ const Portfolio = () => {
                                 image={project3}/>
                                 <CardContent>
                                     <Typography gutterBottom variant='h5'>
-                                        Priject 3
+                                    Scalability Best Practices
                                     </Typography>
                                     <Typography  variant='body2' color='textSecondary' component='p'>
-                                        Proident sit enim commodo et. Cupidatat fugiat anim commodo est. 
-                                        Reprehenderit mollit irure consequat Lorem. Officia duis Lorem occaecat 
-                                        ad labore occaecat fugiat laborum.
+                                        1. Asynchronous - Use asynchronous communication when possible. <br/>
+                                        2. Monitoring - Understand your application’s performance from a customer’s perspective. <br/>
+                                        3. Load & Performance Testing – Test the performance of the application version before it goes into production.<br/>
+                                        4. Root Cause Analysis - Ensure you have a learning culture that is evident by utilizing Root Cause Analysis to find and fix the real cause of issues.
                                     </Typography>
                                 </CardContent>
                                  </CardActionArea>
@@ -124,7 +131,7 @@ const Portfolio = () => {
                                         Share
                                     </Button>
                                     <Button size='small' color='primary'>
-                                        Live Demo
+                                        Like
                                     </Button>
                                     </CardActions>
                                 </Card>
@@ -140,12 +147,13 @@ const Portfolio = () => {
                                 image={project4}/>
                                 <CardContent>
                                     <Typography gutterBottom variant='h5'>
-                                        Project 4
+                                        Fianally being a Team Player
                                     </Typography>
                                     <Typography  variant='body2' color='textSecondary' component='p'>
-                                        Proident sit enim commodo et. Cupidatat fugiat anim commodo est. 
-                                        Reprehenderit mollit irure consequat Lorem. Officia duis Lorem occaecat 
-                                        ad labore occaecat fugiat laborum.
+                                    Embrace feedback & Be accountable<br/>
+                                    Being goal-oriented instead of self-oriented.<br/>
+                                    Positively learn skills for conflict resolution &<br/>
+                                    And making sure you have an Effective Communication, with common Goals
                                     </Typography>
                                 </CardContent>
                              </CardActionArea>
@@ -154,7 +162,7 @@ const Portfolio = () => {
                                         Share
                                     </Button>
                                     <Button size='small' color='primary'>
-                                        Live Demo
+                                        Like
                                     </Button>
                                 </CardActions>
                             </Card>
