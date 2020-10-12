@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme=>({
     },
     homeIcon: {
         marginLeft: "auto",
-        fontSize:"35px",
+        fontSize:"50px",
         color:"tomato",
         "&:hover": {
             color: "tan",
@@ -97,7 +97,9 @@ const Navbar = () => {
                     <Typography variant="h5" style={{color: "tan"}}>
                         Portfolio
                     </Typography>
-                    <HomeTwoToneIcon className={classes.homeIcon}/>
+                    <Link className={classes.homeIcon} to="/portfolio">         
+                        <HomeTwoToneIcon/>
+                    </Link>
                     <MobileRightMenuSlider 
                     anchor="right" 
                     open={state.right}

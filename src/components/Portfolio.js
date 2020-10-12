@@ -24,7 +24,6 @@ const Portfolio = () => {
     const classes = useStyles();
     return (
         <>
-
         <Box component="div" className={classes.mainContainer}>
             <Navbar/>
                 <Container id="skillSet" maxWidth="md">
