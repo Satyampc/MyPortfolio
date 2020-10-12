@@ -38,7 +38,7 @@ const menuItems = [
     {
         listIcon: <Home />,
         listText: "Home",
-        listPath: "/"
+        listPath: "/portfolio"
     },
     {
         listIcon: <AssignmentInd />,
