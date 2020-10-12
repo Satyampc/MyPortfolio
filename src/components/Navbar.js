@@ -5,6 +5,8 @@ import { ArrowBack, Home, Apps, ContactMail, AssignmentInd } from '@material-ui/
 import avatar from '../Ani_Mee.png';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import Footer from './Footer';
+import HomeTwoToneIcon from '@material-ui/icons/HomeTwoTone';
+
 //CSS Styles//
 const useStyles = makeStyles(theme=>({
     menuSliderContainer: {
@@ -20,6 +22,15 @@ const useStyles = makeStyles(theme=>({
     },
     listItem:{
         color: "tan"
+    },
+    homeIcon: {
+        marginLeft: "auto",
+        fontSize:"35px",
+        color:"tomato",
+        "&:hover": {
+            color: "tan",
+            cursor: "pointer"
+        }
     }
 }));
 
@@ -68,7 +79,7 @@ const Navbar = () => {
             {menuItems.map((lsItem, key)=>(
                 <ListItem button key={key} component={Link} to={lsItem.listPath}>
                     <ListItemIcon className={classes.listItem}> {lsItem.listIcon} </ListItemIcon>
-                        <ListItemText className={classes.listItem} primary={lsItem.listText}/>
+                    <ListItemText className={classes.listItem} primary={lsItem.listText}/>
                 </ListItem>
             ))};
             </List>
@@ -86,6 +97,7 @@ const Navbar = () => {
                     <Typography variant="h5" style={{color: "tan"}}>
                         Portfolio
                     </Typography>
+                    <HomeTwoToneIcon className={classes.homeIcon}/>
                     <MobileRightMenuSlider 
                     anchor="right" 
                     open={state.right}
