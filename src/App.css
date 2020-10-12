@@ -73,5 +73,5 @@ body {
   width: calc(100% - 15%);
 }
 .bar.expert::before{
-  width: calc(100% - 5%);
+  width: calc(100% - 10%);
 }
