@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import { Box, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography} from '@material-ui/core';
 import {makeStyles} from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container';
 import project1 from '../images/html-css-javascript-lg.jpg';
 import project2 from '../images/javascript-fullstack.jpg';
 import project3 from '../images/react-redux.jpg';
@@ -22,8 +23,22 @@ const useStyles = makeStyles({
 const Portfolio = () => {
     const classes = useStyles();
     return (
+        <>
+
         <Box component="div" className={classes.mainContainer}>
             <Navbar/>
+                <Container id="skillSet" maxWidth="md">
+                    <Typography component="div" style={{ backgroundColor: '#cfe8fc' }} />
+                        <h1 align='center' style={{ color: 'white' }}>Skill Set</h1>
+                        <div className="bar front expert" data-skill="HTML5 & CSS3">95%</div>
+                        <div className="bar front expert" data-skill="JavaScript">95%</div>
+                        <div className="bar front advanced" data-skill="React.js">85%</div>
+                        <div className="bar back learning" data-skill="Angular 2/4/7/8">80%</div>
+                        <div className="bar back intermediate" data-skill="Node.js">75%</div>
+                        <div className="bar basic" data-skill="TypeScript">60%</div>
+                </Container>
+ 
+
             <Grid container justify='center'>
                 {/* Project 1 */}
                 <Grid item xs={12} sm={8} md={6}>
@@ -147,6 +162,7 @@ const Portfolio = () => {
                         </Grid>
                     </Grid>
                 </Box>
+                </>
             )
         }
 
