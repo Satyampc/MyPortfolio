@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import {AppBar, Toolbar, ListItem, IconButton, ListItemText, Avatar, Divider, List, Typography, Box, makeStyles, ListItemIcon } from '@material-ui/core';
-import { ArrowBack, Home, Apps, ContactMail, AssignmentInd } from '@material-ui/icons';
+import { ArrowForward, Apps, ContactMail, AssignmentInd } from '@material-ui/icons';
 import avatar from '../Ani_Mee.png';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import Footer from './Footer';
 import HomeTwoToneIcon from '@material-ui/icons/HomeTwoTone';
+import ScrollUpButton from "react-scroll-up-button";
 
 //CSS Styles//
 const useStyles = makeStyles(theme=>({
@@ -26,20 +27,15 @@ const useStyles = makeStyles(theme=>({
     homeIcon: {
         marginLeft: "auto",
         fontSize:"50px",
-        color:"tomato",
+        color:"tan",
         "&:hover": {
-            color: "tan",
+            color: "tomato",
             cursor: "pointer"
         }
     }
 }));
 
 const menuItems = [
-    {
-        listIcon: <Home />,
-        listText: "Home",
-        listPath: "/portfolio"
-    },
     {
         listIcon: <AssignmentInd />,
         listText: "Resume",
@@ -70,9 +66,9 @@ const Navbar = () => {
     
     const sideList = slider => (
         <Box
-        onClick={toggleSlider(slider, false)}
-        className={classes.menuSliderContainer} 
-        component="div">
+            onClick={toggleSlider(slider, false)}
+            className={classes.menuSliderContainer} 
+            component="div">
             <Avatar className={classes.avatar} src={avatar} alt="avatar"/>
                 <Divider />
             <List>
@@ -92,7 +88,7 @@ const Navbar = () => {
             <AppBar position="static" style={{background: "#222"}}>
                 <Toolbar>
                     <IconButton onClick={toggleSlider("right", true)}>
-                        <ArrowBack style={{background: "tomato"}}/>
+                        <ArrowForward style={{background: "tan"}}/>
                     </IconButton>
                     <Typography variant="h5" style={{color: "tan"}}>
                         Portfolio
@@ -101,15 +97,15 @@ const Navbar = () => {
                         <HomeTwoToneIcon/>
                     </Link>
                     <MobileRightMenuSlider 
-                    anchor="right" 
-                    open={state.right}
-                    onClose={toggleSlider("right", false)}
-                    >
+                        anchor="right" 
+                        open={state.right}
+                        onClose={toggleSlider("right", false)}>
                         {sideList("right")}
                         <Footer/>
                     </MobileRightMenuSlider>
                 </Toolbar>
             </AppBar>
+            <ScrollUpButton />
         </Box>
         </>
     )
