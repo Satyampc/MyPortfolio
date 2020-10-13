@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.563f3877.chunk.css",
-    "main.js": "/portfolio/static/js/main.6d3dfa52.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6d3dfa52.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.0267a5fa.chunk.css",
+    "main.js": "/portfolio/static/js/main.6d5e9f21.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6d5e9f21.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.8598b8ba.chunk.js": "/portfolio/static/js/2.8598b8ba.chunk.js",
-    "static/js/2.8598b8ba.chunk.js.map": "/portfolio/static/js/2.8598b8ba.chunk.js.map",
+    "static/js/2.351ef154.chunk.js": "/portfolio/static/js/2.351ef154.chunk.js",
+    "static/js/2.351ef154.chunk.js.map": "/portfolio/static/js/2.351ef154.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.35ed7c4806218b590eb3595b626a45f2.js": "/portfolio/precache-manifest.35ed7c4806218b590eb3595b626a45f2.js",
+    "precache-manifest.99ec6c2a0467f0daae7a6b9444d9c66c.js": "/portfolio/precache-manifest.99ec6c2a0467f0daae7a6b9444d9c66c.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.563f3877.chunk.css.map": "/portfolio/static/css/main.563f3877.chunk.css.map",
-    "static/js/2.8598b8ba.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8598b8ba.chunk.js.LICENSE.txt",
+    "static/css/main.0267a5fa.chunk.css.map": "/portfolio/static/css/main.0267a5fa.chunk.css.map",
+    "static/js/2.351ef154.chunk.js.LICENSE.txt": "/portfolio/static/js/2.351ef154.chunk.js.LICENSE.txt",
     "static/media/Ani_Mee.png": "/portfolio/static/media/Ani_Mee.72fe4e12.png",
     "static/media/ResponsiveWebApp.jpg": "/portfolio/static/media/ResponsiveWebApp.85d7c73b.jpg",
     "static/media/ScalibiltyBestPract.jpg": "/portfolio/static/media/ScalibiltyBestPract.30b4203a.jpg",
     "static/media/TeamPlayer.png": "/portfolio/static/media/TeamPlayer.eda60a9f.png",
-    "static/media/WebPerforOptimize.jpg": "/portfolio/static/media/WebPerforOptimize.4c7eda6f.jpg",
-    "static/media/App.css": "/portfolio/static/media/coffee-apple.2dd213aa.jpg"
+    "static/media/WebPerforOptimize.jpg": "/portfolio/static/media/WebPerforOptimize.4c7eda6f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.8598b8ba.chunk.js",
-    "static/css/main.563f3877.chunk.css",
-    "static/js/main.6d3dfa52.chunk.js"
+    "static/js/2.351ef154.chunk.js",
+    "static/css/main.0267a5fa.chunk.css",
+    "static/js/main.6d5e9f21.chunk.js"
   ]
 }
