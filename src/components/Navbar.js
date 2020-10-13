@@ -47,12 +47,12 @@ const menuItems = [
     },
     {
         listIcon: <Apps/>,
-        listText: "Portfolio",
+        listText: "SkillSet",
         listPath: "/portF"
     },
     {
         listIcon: <ContactMail/>,
-        listText: "Contacts",
+        listText: "Contact",
         listPath: "/contacts"
     }
 ];

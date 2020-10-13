@@ -7,6 +7,8 @@ import project1 from '../images/WebPerforOptimize.jpg';
 import project2 from '../images/ResponsiveWebApp.jpg';
 import project3 from '../images/ScalibiltyBestPract.jpg';
 import project4 from '../images/TeamPlayer.png';
+import ThumbUpIcon from '@material-ui/icons/ThumbUp';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 
 const useStyles = makeStyles({
     mainContainer: {
@@ -16,6 +18,10 @@ const useStyles = makeStyles({
     cardContainer: {
         maxWidth: 345,
         margin:'5rem auto'
+    },
+    buttIcon: {
+        marginLeft: "auto!important",
+        color:"red"
     }
 });
 
@@ -52,24 +58,23 @@ const Portfolio = () => {
                                     <Typography gutterBottom variant='h5'>
                                     Performance
                                     </Typography>
-                                    <Typography  variant='body2' color='textSecondary' component='p'>
-                                        Use a Content Delivery Network (CDN) ...
-                                        Move your website to a better host. ...
-                                        Optimize the size of images on your website. ...
-                                        Reduce the number of plugins. ...
-                                        Minimize the number of JavaScript and CSS files. ...
-                                        Use website caching. ...
-                                        Implement Gzip Compression. ...
-                                        Database optimization in CMS.
+                                    <Typography  variant='body2' color='textSecondary' component='ul'>
+                                        <ul>
+                                            <li>Optimize the size of images on your website.</li>
+                                            <li>Reducing the number of plugins.</li>
+                                            <li>Minimize the number of JavaScript and CSS files.</li>
+                                            <li>Utilized website caching.</li>
+                                            <li>Implemented Gzip & other Compression tools</li>
+                                        </ul>
                                     </Typography>
                                 </CardContent>
                              </CardActionArea>
                                 <CardActions>
                                     <Button size='small' color='primary'>
-                                        Share
+                                        <ThumbUpIcon />
                                     </Button>
-                                    <Button size='small' color='primary'>
-                                        Like
+                                    <Button className={classes.buttIcon}>
+                                        <FavoriteBorderIcon/>
                                     </Button>
                                 </CardActions>
                             </Card>
@@ -85,22 +90,24 @@ const Portfolio = () => {
                                 image={project2}/>
                                 <CardContent>
                                     <Typography gutterBottom variant='h5'>
-                                    Accessibility & Best Practices
+                                        Accessibility & Best Practices
                                     </Typography>
-                                    <Typography  variant='body2' color='textSecondary' component='p'>
-                                        1. Create perceivable content <br/>
-                                        2. Offer several ways to navigate <br/>
-                                        3. Make sure your app or site plays well with others.<br/>
-                                        4. Test, test, test
+                                    <Typography  variant='body2' color='textSecondary' component='ul'>
+                                        <ul>
+                                            <li>Have created perceivable content</li>
+                                            <li>Offered several ways to navigate</li>
+                                            <li>Made sure the app plays well with others.</li>
+                                            <li>Test, test, test</li>
+                                        </ul>
                                     </Typography>
                                 </CardContent>
                                  </CardActionArea>
                                 <CardActions>
                                     <Button size='small' color='primary'>
-                                        Share
+                                         <ThumbUpIcon />
                                     </Button>
-                                    <Button size='small' color='primary'>
-                                        Like
+                                    <Button className={classes.buttIcon}>
+                                        <FavoriteBorderIcon/>
                                     </Button>
                                 </CardActions>
                             </Card>
@@ -116,22 +123,24 @@ const Portfolio = () => {
                                 image={project3}/>
                                 <CardContent>
                                     <Typography gutterBottom variant='h5'>
-                                    Scalability Best Practices
+                                        Scalability Best Practices
                                     </Typography>
-                                    <Typography  variant='body2' color='textSecondary' component='p'>
-                                        1. Asynchronous - Use asynchronous communication when possible. <br/>
-                                        2. Monitoring - Understand your application’s performance from a customer’s perspective. <br/>
-                                        3. Load & Performance Testing – Test the performance of the application version before it goes into production.<br/>
-                                        4. Root Cause Analysis - Ensure you have a learning culture that is evident by utilizing Root Cause Analysis to find and fix the real cause of issues.
+                                    <Typography  variant='body2' color='textSecondary' component='ul'>
+                                        <ul>
+                                            <li>Utilized asynchronous communication when possible. </li>
+                                            <li>Monitoring - Understand your application’s performance from a customer’s perspective. </li>
+                                            <li>Load & Performance Testing – Testing the performance of the application version before it goes into production.</li>
+                                            <li>Root Cause Analysis - Ensuring by utilizing Root Cause Analysis to find and fix the real cause of issues.</li>
+                                        </ul>
                                     </Typography>
                                 </CardContent>
                                  </CardActionArea>
                                 <CardActions>
                                     <Button size='small' color='primary'>
-                                        Share
+                                        <ThumbUpIcon />
                                     </Button>
-                                    <Button size='small' color='primary'>
-                                        Like
+                                    <Button className={classes.buttIcon}>
+                                        <FavoriteBorderIcon/>
                                     </Button>
                                     </CardActions>
                                 </Card>
@@ -149,20 +158,22 @@ const Portfolio = () => {
                                     <Typography gutterBottom variant='h5'>
                                         Fianally being a Team Player
                                     </Typography>
-                                    <Typography  variant='body2' color='textSecondary' component='p'>
-                                    Embrace feedback & Be accountable<br/>
-                                    Being goal-oriented instead of self-oriented.<br/>
-                                    Positively learn skills for conflict resolution &<br/>
-                                    And making sure you have an Effective Communication, with common Goals
+                                    <Typography  variant='body2' color='textSecondary' component='ul'>
+                                        <ul>
+                                            <li>Embrace feedback & Be accountable</li>
+                                            <li>Being goal-oriented instead of self-oriented.</li>
+                                            <li>Positively learn skills for conflict resolution &</li>
+                                            <li>And making sure you have an Effective Communication, with common Goals</li>
+                                        </ul>
                                     </Typography>
                                 </CardContent>
                              </CardActionArea>
                                 <CardActions>
                                     <Button size='small' color='primary'>
-                                        Share
+                                        <ThumbUpIcon />
                                     </Button>
-                                    <Button size='small' color='primary'>
-                                        Like
+                                    <Button className={classes.buttIcon}>
+                                        <FavoriteBorderIcon/>
                                     </Button>
                                 </CardActions>
                             </Card>

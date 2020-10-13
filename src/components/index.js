@@ -9,10 +9,9 @@ const useStyles = makeStyles({
         position: "absolute",
         opacity: "0.3"
     }
-})
+});
 
 export const Home = () => {
-
     const classes = useStyles();
     return (
         <>
