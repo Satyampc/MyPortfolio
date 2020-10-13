@@ -29,10 +29,21 @@ const Footer = () => {
     return (
         <>
             <BottomNavigation width="auto" style={{background: "#222"}}>
-                <BottomNavigationAction className={classes.root} style={{padding: 0}} icon={<a target="_blank" href="https://www.facebook.com/"><FacebookIcon/></a>}/>
-                <BottomNavigationAction className={classes.root} style={{padding: 0}} icon={<a target="_blank" href="mailto:asatyamchandiramani@gmail.com.com?subject=subject tect"><MailOutlineIcon/></a>}/>
-                <BottomNavigationAction className={classes.root} style={{padding: 0}} icon={<a target="_blank" href="https://www.linkedin.com/in/satyam-chandiramani-4844371b4/"><LinkedInIcon/></a>}/>
-
+                <BottomNavigationAction 
+                        className={classes.root} 
+                        style={{padding: 0}} 
+                        icon={<a target="_blank" href="https://www.facebook.com/">
+                    <FacebookIcon/></a>}/>
+                <BottomNavigationAction 
+                        className={classes.root} 
+                        style={{padding: 0}} 
+                        icon={<a target="_blank" href="mailto:satyamchandiramani@gmail.com/">
+                    <MailOutlineIcon/></a>}/>
+                <BottomNavigationAction 
+                        className={classes.root} 
+                        style={{padding: 0}} 
+                        icon={<a target="_blank" href="https://www.linkedin.com/in/satyam-chandiramani-4844371b4/">
+                    <LinkedInIcon/></a>}/>
             </BottomNavigation>  
         </>
     )
