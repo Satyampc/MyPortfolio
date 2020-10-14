@@ -31,8 +31,9 @@ const useStyles = makeStyles(theme=>({
         "&:hover": {
             color: "tomato",
             cursor: "pointer"
-        }
-    }
+        }, 
+    },
+    appBarSpacer: theme.mixins.toolbar
 }));
 
 const menuItems = [
@@ -85,7 +86,7 @@ const Navbar = () => {
     return (
         <>
         <Box component="nav">
-            <AppBar position="fixed" style={{background: "#222", marginBottom:"5.5rem"}}>
+            <AppBar className={classes.appBarSpacer} style={{background: "#222", marginBottom:"5.5rem"}}>
                 <Toolbar>
                     <IconButton onClick={toggleSlider("right", true)}>
                         <ArrowForward style={{background: "tan"}}/>
