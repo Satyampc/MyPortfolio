@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   timeLine: {
     position: "relative",
     padding: "1rem",
-    margin: "o auto",
+    margin: "0 auto",
     "&:before": {
       content: "''",
       position: "absolute",
@@ -95,7 +95,7 @@ const useStyles = makeStyles((theme) => ({
   },
   heading: {
     color: "tomato",
-    padding: "3rem 0",
+    paddingTop: "5rem",
   },
   subHeading: {
     color: "#fff",

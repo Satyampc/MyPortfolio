@@ -34,7 +34,7 @@ const Portfolio = () => {
             <Navbar/>
                 <Container id="skillSet" maxWidth="md">
                     <Typography component="div" style={{ backgroundColor: '#cfe8fc' }} />
-                        <h1 align='center' style={{ color: 'white' }}>Skill Set</h1>
+                        <h1 align='center' style={{ color: 'white', paddingTop:'5rem' }}>Skill Set</h1>
                         <div className="bar front expert" data-skill="HTML5 & CSS3">95%</div>
                         <div className="bar front expert" data-skill="JavaScript">95%</div>
                         <div className="bar front advanced" data-skill="React.js">85%</div>

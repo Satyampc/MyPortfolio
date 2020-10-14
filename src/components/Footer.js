@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import {makeStyles} from '@material-ui/core';
 import {BottomNavigation, BottomNavigationAction} from '@material-ui/core';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -32,17 +31,17 @@ const Footer = () => {
                 <BottomNavigationAction 
                         className={classes.root} 
                         style={{padding: 0}} 
-                        icon={<a target="_blank" href="https://www.facebook.com/">
+                        icon={<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/">
                     <FacebookIcon/></a>}/>
                 <BottomNavigationAction 
                         className={classes.root} 
                         style={{padding: 0}} 
-                        icon={<a target="_blank" href="mailto:satyamchandiramani@gmail.com/">
+                        icon={<a target="_blank" rel="noopener noreferrer" href="mailto:satyamchandiramani@gmail.com/">
                     <MailOutlineIcon/></a>}/>
                 <BottomNavigationAction 
                         className={classes.root} 
                         style={{padding: 0}} 
-                        icon={<a target="_blank" href="https://www.linkedin.com/in/satyam-chandiramani-4844371b4/">
+                        icon={<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/satyam-chandiramani-4844371b4/">
                     <LinkedInIcon/></a>}/>
             </BottomNavigation>  
         </>
