@@ -5,9 +5,9 @@ I started this project multiple times testing different styling frameworks befor
 This project also served as my introduction to Material-UI and deploying a site. <br/>
 
 <strong><h1>Installation</h1></strong>
-Run npm i.
-Run npm start.
-Visit localhost:3000.
+<p>Run npm i.</p>
+<p>Run npm start.</p>
+<p>Visit localhost:3000.</p>
 <br/>
 
 <strong><h1>Publish on GitHub Pages</h1></strong>
