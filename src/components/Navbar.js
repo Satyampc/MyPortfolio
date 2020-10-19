@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import {AppBar, Toolbar, ListItem, IconButton, ListItemText, Avatar, Divider, List, Typography, Box, makeStyles, ListItemIcon } from '@material-ui/core';
 import { ArrowForward, Apps, ContactMail, AssignmentInd } from '@material-ui/icons';
-import avatar from '../Ani_Mee.png';
+import avatar from '../Ani_Mee.jpg';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import Footer from './Footer';
 import HomeTwoToneIcon from '@material-ui/icons/HomeTwoTone';
