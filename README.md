@@ -8,6 +8,7 @@ This project also served as my introduction to Material-UI and deploying a site.
 <p>Run npm i.</p>
 <p>Run npm start.</p>
 <p>Visit localhost:3000/portfolio.</p>
+<p>Portfilio Link: https://satyampc.github.io/portfolio/</p>
 <br/>
 
 <strong><h1>Publish on GitHub Pages</h1></strong>
