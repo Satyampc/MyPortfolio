@@ -11,7 +11,7 @@ This project also served as my introduction to Material-UI and deploying a site.
 <p>Portfilio Link: https://satyampc.github.io/portfolio/</p>
 <br/>
 
-<strong><h1>Publish on GitHub Pages</h1></strong>
+<strong><h1>A Simple tip on how to publish on GitHub Pages</h1></strong>
 <ol>
   <li>Run npm run deploy. This will start the build process and push afterwards to the gh-pages branch.</li>
   <li>Set under Settings > GitHub Pages the source to gh-pages branch and click Save.</li>
