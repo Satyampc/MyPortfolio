@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     maxWidth: "9.375rem",
     margin: "0 3rem 0 auto",
-    fontSize: "1.5rem",
+    fontSize: "1rem",
     color: "#fff",
     background: "tomato",
     lineHeight: 1,
@@ -117,10 +117,10 @@ const Resume = () => {
       <Navbar/>
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h5" align="center" className={classes.heading}>
-                Over 9 Years of experience with
+                Over 7 Years of experience with
             <Typography className={classes.subHeading} style={{color: "white", fontSize: "13px"}} align="center">
                 <Typed 
-                strings={["Web Development, Web Designing, Testing and Documentation, HTML/HTML5 and CSS/CSS3, <br/> JavaScript, jQuery, React JS, Angular 2/4/6/7, TypeScript, Material UI, Canvas StoryBook and much more..."]} 
+                strings={["Web Development, Web Designing, Testing and Documentation, HTML/HTML5 and CSS/CSS3, <br/> JavaScript, jQuery, React JS, Angular 2/4/6/7, TypeScript, Material UI, Canvas StoryBook"]} 
                 typeSpeed={100}
                 />
                 </Typography>
@@ -130,7 +130,7 @@ const Resume = () => {
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-              2019 - Active
+              Sep '19 - Nov '20
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -154,7 +154,7 @@ const Resume = () => {
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-              2017 - 2019
+              Sep '17 - Aug '19
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -180,7 +180,7 @@ const Resume = () => {
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-              2015 - 2017
+              Sep '15 - Aug '17
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -206,33 +206,7 @@ const Resume = () => {
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-              2013 - 2015
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}>
-              Frontend Web Developer
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-              Amex -- New York, NY
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}>
-              This project is about dealing Amex business card holders, providing 
-              them with easy access to manage their payments and was also involved in internal 
-              cash rewards program App development and created designs including responsive mobile 
-              and tablet layouts. I was a part of the developing TEAM for building the website from
-              Wireframes using AngularJS, JavaScript, jQuery, HTML, CSS moving on with Agile methodology. 
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-              2011 - 2013
+              Nov '13 - Sep '15
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -248,10 +222,10 @@ const Resume = () => {
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}>
-              Integration as a Service (IaaS) organizes the client data (transactions, history, 
+              Integration as a Service (IaaS) to organize the client data (transactions, history, 
               benefits and rewards) through this web-based portal named Revolver (Cash flow). 
               LaaS issues records to clients and organizes their data through this portal. Data 
-              representation is carried out in a rich graphical interpretation using the latest UI technologies. 
+              representation is presented out in a rich graphical interpretation using the latest UI technologies. 
           </Typography>
           </Box>
       </Box>
@@ -260,4 +234,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Resume; 	
